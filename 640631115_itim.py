@@ -1,5 +1,5 @@
 from scipy.optimize import linprog
-x = [-2,-3] # define benefit cost per unit, 2 for vanila icecream, 3 for strawberry icecream (-: means find to maximum required 1 doll per 1 box of icecream 
+x = [-2,-3] # define benefit cost per unit, 2 for vanila icecream, 3 for strawberry icecream (-: means find to maximum profit required 1 doll per 1 box of icecream 
 b = [10,30] #define daily order of fresh milk, 10 for vanila icecream, 30 for strawberry icecream
 x0_bnds = (0, None) ## bounds is defined more than or equal to 0
 x1_bnds = (0, None) ## bounds is defined more than or equal to 0
